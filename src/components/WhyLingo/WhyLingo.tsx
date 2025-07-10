@@ -64,6 +64,9 @@ const WhyLingo = () => {
             </div>
           </div>
         </div>
+        <div className={style.truck}>
+          <Image src="/whyLingo/track.webp" width={390} height={177} alt="truck" />
+        </div>
       </div>
     </section>
   );

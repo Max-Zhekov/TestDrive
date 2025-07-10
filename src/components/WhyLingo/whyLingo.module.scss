@@ -109,6 +109,12 @@
   }
 }
 
+.truck {
+  position: absolute;
+  bottom: -127px;
+  left: -150px;
+}
+
 @media (max-width: 990px) {
   .whyLingo__left {
     &_title {
@@ -144,5 +150,9 @@
     &__right {
       width: 100%;
     }
+  }
+
+  .truck {
+    bottom: -200px;
   }
 }
