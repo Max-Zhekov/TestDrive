@@ -13,11 +13,12 @@ const Header = () => {
             height={56}
             alt="Logo"
             className={style.header__logo}
+            priority
           />
           <Image
             src="./header/logo-mobile.svg"
-            width={74}
-            height={56}
+            width={65}
+            height={50}
             alt="Logo"
             className={style.header__logo_mobile}
           />
