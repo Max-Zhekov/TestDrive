@@ -1,4 +1,4 @@
-import Header from '@/components/Header/Header';
+import CTA from '@/components/CTA/CTA';
 import Hero from '@/components/Hero/Hero';
 import WhyLingo from '@/components/WhyLingo/WhyLingo';
 import YouWillLearn from '@/components/YouWillLearn/YouWillLearn';
@@ -6,10 +6,15 @@ import YouWillLearn from '@/components/YouWillLearn/YouWillLearn';
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <WhyLingo />
-      <YouWillLearn />
+      <div className="background_grey">
+        <YouWillLearn />
+        <CTA
+          title="Learn Fast. Drive Confident. Be Understood."
+          text="Whether you're new to English or just want to improve, Lingo Driver helps you understand rules, fill out forms, give updates, and stay safe on the job"
+        />
+      </div>
     </>
   );
 }

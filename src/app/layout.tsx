@@ -1,3 +1,4 @@
+import Header from '@/components/Header/Header';
 import './globals.scss';
 import { Inter, Manrope } from 'next/font/google';
 
@@ -21,7 +22,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
