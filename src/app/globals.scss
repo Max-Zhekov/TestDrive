@@ -30,7 +30,6 @@ html {
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
@@ -51,6 +50,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.background_grey {
+  background: var(--Neutral-Neutral1-2, #f1f2f6);
 }
 
 @media screen and (max-width: 992px) {
